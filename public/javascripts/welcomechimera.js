@@ -5,7 +5,7 @@ function svgrun() {
   container.classList.toggle('active');
   container.addEventListener("animationend", function () {
         // document.getElementById("svg").style = "display:none"
-        window.open("text-animation.html", "_self")
+        location.href = "/text-animation"
 
   })
 }
